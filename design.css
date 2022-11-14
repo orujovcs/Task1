@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('image\\vincentiu-solomon-ln5drpv_ImI-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    /* height: vh; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mainRight{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+.mainLeft{
+    display: flex;
+    flex-direction: row;
+}
+.mainLeft p{
+    margin-left: 15px;
+}
+.mainSide{
+    margin-top: 45vh;
+    width: 100%;
+    /* height: 100vh; */
+}
+.centerItem{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
